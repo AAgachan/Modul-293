@@ -1,0 +1,133 @@
+  /*Mobile Version*/
+  @media (max-width:896px) {
+      h1 {
+          font-size: 35px;
+      }
+
+      h3 {
+          font-size: 25px;
+      }
+
+      h4 {
+          font-size: 18px;
+      }
+
+      .main-container {
+          padding-left: 20px;
+          padding-right: 20px;
+      }
+
+      main {
+          padding-top: 50px;
+          padding-bottom: 90px;
+
+      }
+
+      .welcome-text,
+      .project-text {
+          padding-top: 10px;
+          padding-left: 15px;
+          padding-right: 15px;
+          font-size: 18px;
+      }
+
+      .welcome-part h3 {
+          font-size: 20px;
+      }
+
+      nav {
+          padding-left: 20px;
+          padding-right: 20px;
+      }
+
+      nav>.nav-btn {
+          display: inline-block;
+          position: absolute;
+          right: 0px;
+          top: 0px;
+      }
+
+      nav>.nav-btn>label {
+          display: inline-block;
+          width: 50px;
+          height: 50px;
+          padding-top: 22px;
+          padding-right: 50px;
+      }
+
+      nav>.nav-btn>label:hover,
+      nav #nav-check:checked~.nav-btn>label {
+          background-color: #274c77;
+      }
+
+      nav>.nav-btn>label>span {
+          display: block;
+          width: 25px;
+          height: 10px;
+          border-top: 2px solid #eee;
+      }
+
+      nav>.nav-links {
+          position: absolute;
+          display: block;
+          width: 100%;
+          background-color: #274c77;
+          height: 0px;
+          transition: all 0.3s ease-in;
+          overflow-y: hidden;
+          top: 50px;
+          left: 0px;
+          max-height: 300px;
+          margin-top: 20px;
+      }
+
+      nav>.nav-links>a {
+          display: block;
+          width: 100%;
+          padding-left: 20px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+      }
+
+      nav>#nav-check:not(:checked)~.nav-links {
+          height: 0px;
+      }
+
+      nav>#nav-check:checked~.nav-links {
+          height: calc(100vh - 50px);
+          overflow-y: auto;
+      }
+
+      #heading-title {
+          padding-top: 30px;
+      }
+
+      .accordion-button {
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+      .project-boxes {
+          padding-top: 10px;
+      }
+
+      .project-box {
+          height: 450px;
+      }
+
+      .project-box-title {
+          padding-top: 23px;
+      }
+
+      .project-image {
+          max-width: 100% !important;
+          margin-bottom: 70px;
+      }
+
+      .project-description {
+          padding-left: 15px;
+          padding-right: 15px;
+          height: 150px;
+      }
+
+  }
